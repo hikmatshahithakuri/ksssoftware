@@ -1,0 +1,33 @@
+<div class="container mt-4">
+        <h2>Attendance Management</h2>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="attendanceDate" class="form-label">Select Date:</label>
+                <input type="date" class="form-control" id="attendanceDate" value="<%= new Date().toISOString().slice(0,10) %>" required>
+            </div>
+            <div class="col-md-6">
+                <label for="attendanceClass" class="form-label">Select Class:</label>
+                <select class="form-select" id="attendanceClass" required>
+                    <option value="">Select Class</option>
+                    </select>
+            </div>
+        </div>
+
+        <div class="table-responsive mt-4">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Roll No.</th>
+                        <th>Student Name</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="attendanceListBody">
+                    <tr><td colspan="3" class="text-center">Select a class and date to view attendance.</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="text-center mt-3">
+            <button class="btn btn-success" id="saveAttendanceBtn">Save Attendance</button>
+        </div>
+    </div>

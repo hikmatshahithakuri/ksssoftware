@@ -1,0 +1,24 @@
+<div class="container mt-4">
+        <h2>Gradesheet Generation</h2>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="gradesheetClass" class="form-label">Select Class:</label>
+                <select class="form-select" id="gradesheetClass" required>
+                    <option value="">Select Class</option>
+                    </select>
+            </div>
+            <div class="col-md-6">
+                <label for="gradesheetStudent" class="form-label">Select Student:</label>
+                <select class="form-select" id="gradesheetStudent" required>
+                    <option value="">Select Student</option>
+                    </select>
+            </div>
+        </div>
+        <div class="text-center mb-4">
+            <button class="btn btn-info" id="generateGradesheetBtn">Generate Gradesheet</button>
+        </div>
+
+        <div id="gradesheetOutput" class="mt-4">
+            <p class="text-muted text-center">Select a student and click "Generate Gradesheet" to view.</p>
+        </div>
+    </div>

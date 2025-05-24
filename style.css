@@ -1,0 +1,39 @@
+/* Custom CSS for Kankali Student Management System */
+
+body {
+    padding-top: 56px; /* Adjust for fixed-top navbar */
+    padding-bottom: 70px; /* Adjust for fixed-bottom footer */
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+/* Specific styles for different page elements if needed */
